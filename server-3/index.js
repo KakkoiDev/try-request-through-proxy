@@ -8,7 +8,7 @@ const __dirname = import.meta.dirname;
 
 const app = express();
 const port = 5002;
-const upload = multer({ dest: "uploads/" });
+const upload = multer({ dest: path.join(__dirname, "uploads") });
 
 app.use(cors());
 app.use(bodyParser.json());

@@ -1,5 +1,5 @@
 node_modules
 
 # Uploads
-uploads/*
-!uploads/.gitkeep
+server-3/uploads/*
+!server-3/uploads/.gitkeep
